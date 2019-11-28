@@ -1,0 +1,141 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetika, sans-serif;
+	font-size: 16px;
+}
+
+.intro {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	/*background: url('../img/bg_img2.jpg') 0 -600px;*/
+	background: rgba(0, 0, 0, 0.4);
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	flex-direction: row;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	flex-direction: row;
+}
+.content img {
+	margin: 50px 0 0 0; 
+	border-radius: 50%; 
+	width: 150px;" 
+}
+
+.content h1 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	flex-direction: column;
+	font-size: 400%;
+	text-shadow: 4px 4px #111111;
+	text-transform: capitalize;
+}
+.content h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+.content h1 a:hover{
+	color: #646499;
+}
+
+.content h2 {
+	width: 50%; 
+	margin: 0 auto;
+	color: #111;
+}
+
+.content hr {
+	 height: 1px; border: 4px #fff solid;
+}
+
+.content p {
+	font-size: 20px;
+	color: #6464bb;
+	margin-top: 0;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	
+}
+
+.btn {
+	border-radius: 9px;
+	text-decoration: none;
+	font-size: 135%;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	color: #1f2f3f;
+	font-weight: bold;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+/*CONTENT PAGE*/
+/*
+#content-page {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+	background: url("../img/bg.png") repeat;
+}
+#content-page .container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	background-color: #fff;
+}
+
+#profile {
+	flex-direction: row;
+	margin: 0 auto;
+	padding: 0;
+}
+#profile h2 {
+	flex-direction: row;
+	position: absolute;
+	margin: 0;
+	padding: 10px 0;
+	width: 80%;
+	border: #111 solid;
+}
+#profile [title-column] {
+	flex-direction: column;
+	margin-top: 60px;
+	padding-top: 20px; 
+	border: #111 solid;
+	width: 30%;
+}
+#profile [detail-column] {
+	margin-top: 60px;
+	padding-top: 20px;
+	flex-direction: column;
+	padding-left: 20px;
+	border: #111 solid;
+	width: 80%;
+}
+
+#profile .details p {
+	flex-direction: row;
+	padding-left: 200px;
+}
