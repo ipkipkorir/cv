@@ -58,6 +58,10 @@ html, body {
 }
 .content h1 a:hover{
 	color: #646499;
+	text-shadow: 2px 2px #ffffff;
+	background: rgba(0,0,0,0.7);
+	padding: 8px;
+	border-radius: 5px;
 }
 
 .content h2 {
@@ -103,6 +107,8 @@ nav {
 
 .btn:hover {
 	color: #fff;
+	background: rgba(0,0,0,0.7);
+	padding: 14px;
 }
 
 /*CONTENT PAGE*/
