@@ -160,12 +160,12 @@ nav {
 		bottom: 20px;
 	}
 
-	/*NAV FOR MOBILE DEVICES*/
+	/*NAVIGATION BUTTON AND MENU */
 	#main_nav_1 {
 		width: 100%;
 		position: absolute;
 		right: 0;
-		top: 20px;
+		top: 8px;
 		bottom: 0;
 		padding: 20px;
 	}
@@ -199,10 +199,12 @@ nav {
   	}
   	.main_nav.responsive a {
     	float: none;
+    	text-shadow: #646464 8px 0 8px 2px;
+    	font-weight: 3em;
     	display: block;
     	text-align: left;
     	font-size: 25px;
-    	padding: 8px 38px;
+    	padding: 10px 48px;
     	text-transform: capitalize;
   	}
 }
